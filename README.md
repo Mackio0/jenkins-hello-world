@@ -13,6 +13,7 @@ mvn test
 - Total 6 test cases, out of which
   - 5 test cases will pass and 
   - 1 test case fails!
+- Please Note that I've updated the test so that all 6 tests pass.
  
 ### Deploy/Run
 ```
@@ -23,3 +24,4 @@ java -jar target/hello-demo-*.jar
 ```
 curl -s http://localhost:6767/hello"
 ```
+
