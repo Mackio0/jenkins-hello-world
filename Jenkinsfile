@@ -19,7 +19,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Get some code from a Git repo
-                git 'http://139.84.159.194:5555/dasher-org/jenkins-hello-world.git'
+                // git 'http://139.84.159.194:5555/dasher-org/jenkins-hello-world.git'
                 
                 // Run Maven Package CMD
                 sh 'mvn clean package -DskipTests=true'
