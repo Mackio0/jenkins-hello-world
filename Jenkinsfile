@@ -25,5 +25,6 @@ pipeline {
   }
   tools {
     maven 'M3911'
+    jdk 'JDK21'
   }
 }
